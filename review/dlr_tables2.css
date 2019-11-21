@@ -14,19 +14,45 @@
 */
 
 /* Table Styles */
-
-
+table.programs{
+   width: 100%;
+   border: rgb(151,151,151) 15px outset;
+   font-family: Arial, Verdana, sans-serif
+}
+tr{
+   height: 25px;
+}
+th,td{
+   border: gray 1px solid;
+   vertical-align:text-top ;
+   padding: 5px;
+}
 
 /* Table Caption Styles */
-
+caption{
+   vertical-align: bottom;
+   text-align: center;
+}
 
 
 /* Table Column Styles */
-
-
+col.timeColumn{
+   width:10%;
+   background-color: rgb(215, 205, 151);
+}
+col.wDayColumns{
+   width:11%;
+   background-color: rgb(236, 255, 211);
+}
+col.wEndColumns{
+   width:17%;
+   background-color: rgb(255, 231, 255);
+}
 
 /* Table Header Styles */
-
+thead{
+   background-color: rgb(105, 177, 60)
+}
 
 
 /* Table Footer Styles */
