@@ -53,13 +53,18 @@ col.wEndColumns{
 thead{
    background-color: rgb(105, 177, 60)
 }
-th :first-of-type{
+thead th:first-of-type{
    background-color: rgb(153, 86, 7);
 }
-
+thead th:nth-of-type(7), th:nth-of-type(8){
+   background-color: rgb(153,0,153);
+}
 /* Table Footer Styles */
 
-
+tfoot{
+   color: white;
+   background-color: black;
+}
 
 
 
